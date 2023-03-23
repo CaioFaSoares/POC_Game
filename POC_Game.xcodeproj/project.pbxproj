@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D663878629CC89CD002E6F2F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663878529CC89CD002E6F2F /* main.swift */; };
+		D663878F29CC89F7002E6F2F /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663878D29CC89F7002E6F2F /* Action.swift */; };
+		D663879029CC89F7002E6F2F /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663878E29CC89F7002E6F2F /* Entity.swift */; };
+		D663879229CC990E002E6F2F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663879129CC990E002E6F2F /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		D663878229CC89CD002E6F2F /* POC_Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POC_Game; sourceTree = BUILT_PRODUCTS_DIR; };
 		D663878529CC89CD002E6F2F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D663878D29CC89F7002E6F2F /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		D663878E29CC89F7002E6F2F /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D663879129CC990E002E6F2F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		D663878429CC89CD002E6F2F /* POC_Game */ = {
 			isa = PBXGroup;
 			children = (
+				D663878C29CC89E8002E6F2F /* Data */,
 				D663878529CC89CD002E6F2F /* main.swift */,
 			);
 			path = POC_Game;
+			sourceTree = "<group>";
+		};
+		D663878C29CC89E8002E6F2F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D663879129CC990E002E6F2F /* Strings.swift */,
+				D663878D29CC89F7002E6F2F /* Action.swift */,
+				D663878E29CC89F7002E6F2F /* Entity.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D663878629CC89CD002E6F2F /* main.swift in Sources */,
+				D663878F29CC89F7002E6F2F /* Action.swift in Sources */,
+				D663879229CC990E002E6F2F /* Strings.swift in Sources */,
+				D663879029CC89F7002E6F2F /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
